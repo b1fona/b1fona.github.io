@@ -1,0 +1,838 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+.clearfix{
+    clear: both;
+}
+.header-top {
+    background: #6F1E51;
+}
+.header-top p{
+    padding:10px 0 ;
+    color:#fff;
+    text-align:center;
+    margin:0;
+}
+.header-bottom{
+    padding:0;
+}
+.logo{
+    float:left;
+    border-right:1px dashed #eee;
+}
+.logo img{
+    padding:13px 20px 13px 0 ;
+}
+.menu{
+    float:left;
+}
+.menu ul{
+    padding:0;
+    margin:0;
+}
+.menu li{
+    float:left;
+    list-style: none;
+    padding:25px 40px;
+    border-right:1px dashed #eee;
+    margin:0;
+}
+.menu a{
+    color:#333;
+    text-decoration: none;
+}
+.menu li:hover{
+    background: rgb(228, 129, 191);
+}
+.menu li:hover a{
+    text-decoration: none;
+    color:#fff;
+}
+.colormenu{
+    padding:25px 15px!important;
+    font-weight: bold;
+}
+.colormenu a{
+    color:rgb(107, 106, 106);
+}
+.buttons{
+    float:right;
+}
+.buttons ul{
+    margin:0;
+    padding:0;
+}
+.buttons li{
+    margin:21px 3px;
+    float:left;
+    list-style: none;
+    font-size:14px;
+    border-radius: 7px;
+    background: #6F1E51;
+}
+.buttons a{
+    color:#fff;
+    text-decoration: none;
+    padding:5px 15px;
+    display: block;
+}
+.buttons a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.buttons li:hover{
+    background: rgb(160, 90, 134);
+    transition: 1s;
+}
+.buttons-element1{
+    background: #6388ca !important;
+}
+.buttons-element1:hover{
+    background: #333!important;
+}
+.buttons-element2{
+    background:#fff !important;
+    border:2px solid #6388ca;
+    margin-right:30px!important;
+}
+.buttons-element2 a{
+    color:#6388ca;
+    padding:3px 15px;
+}
+.buttons-element2 a:hover{
+    color:#6388ca;
+}
+.finder{
+    padding-left:20px;
+    background-image: url('images/Screenshot_4.png');
+    background-size:cover; 
+}
+.finder p{
+    font-size:22px;
+    margin:25px 0 10px 0;
+    display: inline-block;
+    color:#fff;
+}  
+.search-input{
+    background: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70%;
+    overflow: hidden;
+    float:left;
+}
+.search-input select{
+    width: 100%;
+    height: 40px;
+    border:none;
+    background: #fff;
+    color:rgb(136, 136, 136);
+    font-size:19px;
+}
+.search-input select:focus{
+    border:1px solid #eee;
+    outline: 0;
+}
+.select-box{
+    border-right: 1px dotted rgb(131, 130, 130);
+    display: inline-block;
+    margin:10px 0;
+    width: 23%;
+}
+.search{
+    display: inline-block;
+    width: 60%;
+}
+.search input{
+    height: 40px;
+    border:none;
+    background: #fff;
+    color:rgb(136, 136, 136);
+    font-size:19px;
+    width: 100%;
+    margin:10px 0;
+}
+.search input:focus{
+    outline: 0;
+}
+
+.search-button input{
+    width: 100%;
+    margin:0;
+    height:64px;
+    padding: 0;
+    border:none;
+    background: #333;
+    color:#fff;
+    font-size:19px;
+}
+.detailed-article{
+    float:left;
+    margin-left:35px;
+}
+.detailed-article p{
+    color:#fff;
+    line-height: 60px;
+    margin:0;
+    padding:0;
+    font-size:17px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.popular-jobs{
+}
+.popular-brands{
+    display: block!important;
+}
+.popular-jobs p{
+    font-size:17px;
+    font-weight: 500;
+}
+.popular-brands{
+    background: #fff;
+}
+.brand{
+    float:left;
+    padding-bottom: 15px;
+    border: 1px solid rgb(212, 212, 212);
+    border-left: none;
+}
+.brand p{
+    color:#333;
+    margin:15px 0 0 0;
+    padding:0;
+    display: block !important;
+    text-align: center;
+    font-weight:17px;
+}
+.brand a{
+    color: #6388ca;
+}
+.brand p a:hover{
+    text-decoration: none;
+    color: #6388ca;
+}
+#p-brand-name{
+    font-size:14px;
+    color:rgb(114, 112, 112);
+    margin-top:2px;
+}
+#p-brand-name a{
+    color:#333;
+}
+#p-brand-name a:hover{
+    color:#333;
+}
+.brand-logo{
+    margin:5px 5px;
+}
+.border-left-brand{
+    border-left: 1px solid rgb(212, 212, 212);
+}
+.advertisement{
+    margin-top:35px;
+}
+.status{
+    background-size:cover; 
+    float:left;
+}
+.status-article{
+    float:left;
+}
+.statu{
+    font-size:24px;
+    font-weight: bold;
+    margin:0 0 3px 0;
+}
+.statu a{
+    display: block;
+    padding:25px 0 0 0;
+    color: #912da2;
+}
+.statu a:hover{
+    text-decoration: none;
+    color: #912da2;
+}
+.number-of-ads{
+    font-size:15px;
+    font-weight: bold;
+}
+.number-of-ads a{
+    color:#000;
+    text-decoration: none;
+}
+.number-of-ads a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.status-img{
+    float:left;
+    padding-top:15px;
+}
+.status-img a{
+    display: block;
+}
+.flex{
+    background: #333;
+    position: absolute;
+    height: 165px;
+    width: 100%;
+    background: #ae5bc1;
+    display: none;
+}
+.status:hover .flex{
+    display: block;
+    opacity: 0.8;
+    transition: 1s;
+}
+.status:hover .statu a{
+    color:#fff;
+}
+.status:hover .number-of-ads a{
+    color:#fff;
+}
+.examined-article{
+    display: none;
+    font-weight: bold;
+    margin:40px 0 0;
+    padding:0;
+}
+.examined-article a{
+    color:#fff;
+    text-decoration:none;
+}
+.examined-article a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.status:hover .examined-article{
+    display: block;
+}
+.small-advertisement{
+    float:right ;
+    margin-top:25px;
+    border:1px solid #6388ca;
+    border-radius: 7px;
+}
+.small-advertisement-package{
+    float:right ;
+}
+.small-ai{
+    float:left;
+}
+.small-ai i{
+    font-size:34px;
+    line-height: 60px;
+    float: right;
+    display: block;
+}
+.small-ai a{
+    color:#6388ca;
+    text-decoration: none;
+}
+.small-ai a:hover{
+    color:#6388ca;
+    text-decoration: none;
+}
+.small-a-article{
+    float:left;
+}
+.small-a-article p{
+    font-size:15px;
+    color:#6388ca;
+    margin:0;
+}
+.small-a-article a{
+    display: block;
+    padding:10px 0;
+    color:#6388ca;
+}
+.small-a-article a:hover{
+    text-decoration: none ;
+    color:#6388ca;
+}
+.small-advertisement:hover{
+    background: #6388ca;
+    transition: 0.5s;
+}
+.small-advertisement:hover .small-ai a{
+    color:#fff;
+}
+.small-advertisement:hover .small-a-article a{
+    color:#fff;
+}
+.category-advert{
+    margin-top:20px;
+}
+.category-advert h3{
+    font-size:14px;
+    font-weight: bold;
+    color:#912da2;
+    float:none;
+}
+.ca-column{
+    float:none;
+    border:1px solid #eee;
+    border-top:none;
+    border-bottom:none;
+}
+.ca-column li{
+    list-style: none;
+    font-size:14px;
+    padding:3px 0;
+}
+.ca-column a{
+    color:rgb(95, 94, 94);
+    text-decoration: none;
+}
+.ca-column a:hover{
+    color:rgb(95, 94, 94);
+    text-decoration: underline;
+}
+.career-guide{
+    background-color: #f9f9f9;
+    margin-top:25px;
+    padding-top:15px;
+}
+.career-article h4{
+    font-size:16px;
+    font-weight: bold;
+}
+.half-img{
+    float:left;
+    background-size:cover; 
+    height: 440px;
+}
+.half-img-space{
+    padding-left:3px;
+}
+.quarter-img{
+    height: 220px;
+    background-size:cover;
+}
+.smaller-img{
+    height: 220px;
+    background-size:cover;
+    margin-bottom:3px; 
+    float:left;
+}
+.quarter-img h2{
+    bottom:20px !important;
+    position: absolute;
+    display: inline-block;
+    font-size:22px;
+    padding:0 10px;
+    color:#fff;
+}
+.smaller-img h2{
+    bottom:20px !important;
+    position: absolute;
+    display: inline-block;
+    font-size:17px;
+    padding:0 10px;
+    color:#fff;
+}
+.smaller-x{
+    height: 220px;
+}
+.half-image-article{
+    height: 440px;
+}
+.half-image-article h2{
+    bottom:20px !important;
+    position: absolute;
+    font-size:26px;
+    padding:0 25px;
+    color:#fff;
+}
+.login-home-button{
+    display: none;
+}
+.search-button i{
+    display: none;
+}
+.search-button button{
+    display: none;
+}
+.mobile-advertisement{
+    display: none;
+}
+.mobile-home-sign-in{
+    display: none;
+}
+.guide-m{
+    display: none;
+}
+.featured-job-ann{
+    display: none;
+}
+.footer{
+    margin-top:15px;
+}
+.footer-navbar ul{
+    padding:0;
+    margin:0;
+    float:left;
+}
+.social-media{
+    float:right;
+    padding-right: 15px;
+}
+.footer-navbar li{
+    float:left;
+    list-style: none;
+    border-right: 1px solid #8f8e8e;
+    padding:0 10px;
+    font-size:14px;
+    color:#817f7f;
+    line-height: 25px;
+    margin-top:3px;
+}
+.footer-navbar a{
+    color:rgb(128, 127, 127);
+}
+.footer-navbar li:hover{
+    background:#6F1E51; 
+}
+.footer-navbar li:hover a{
+    color:#fff;
+    text-decoration: none;
+}
+.social-media-l{
+    float:left;
+    padding:3px 7px;
+    border:1px solid rgb(204, 203, 203);
+    margin:0 3px;
+}
+.app-play{
+    padding:3px 10px;
+    background: #333;
+    float:left;
+    border-radius: 5px;
+    width: 110px;
+    margin:0px 3px;
+}
+.app-play i{
+    font-size:17px;
+    float:left;
+    margin:5px 0 ;
+}
+.app-play a{
+    color:#fff;
+}
+.app-play a:hover{
+    color:#fff;
+}
+.app-play span{
+    font-size:10px;
+    line-height: 11px;
+    float:left;
+    display: block;
+    width: 70px;
+    margin:3px 0 0 7px;
+}
+.with-jobs{
+    margin-top:15px;
+}
+.with-jobs h3{
+    color: #6F1E51;
+    font-size:15px;
+    margin:5px 0;
+    padding:0;
+    display: block;
+    margin-left:5px;
+}
+.with-jobs ul{
+    margin:0 0 0 5px;
+    padding:0;
+}
+.with-jobs li{
+    list-style: none;
+    font-size:13px;
+}
+.with-jobs a{
+    color:#817f7f;
+}
+.with-jobs li:hover a{
+    text-decoration: underline;
+    color:#817f7f;
+}
+.left-list-sector{
+    float:left;
+}
+.right-list-sector {
+    float: left;
+    margin-left:35px !important;
+}
+.sector-jobs p{
+    font-size:12px;
+    margin:5px;
+}
+.sectorjob-a{
+    text-decoration: underline !important;
+}
+.sectorjob-a:hover{
+    color:#6388ca;
+}
+.sector-jobs{
+    float:left;
+    border-left:1px solid rgb(216, 214, 214);
+}
+.sector-jobs-x{
+    border-right: 1px solid rgb(216, 214, 214);
+}
+.copyright{
+    margin-top:25px;
+}
+.logo-copy{
+    float:left;
+    width: 5%;
+}
+.logo-copy img{
+    margin-left:15px;
+}
+.footer-article-x{
+    float:left;
+    width: 95%;
+}
+.footer-article-x p{
+    color:#858484;
+    font-size:12px;
+    margin:0;
+}
+@media only screen and (max-width: 600px) {
+    .header-top{
+        display:none;
+    }
+    .menu{
+        float:right;
+    }
+    .menu ul{
+        display: none;
+    }
+    .login-home-button{
+        display: block;
+        margin-top:25px;
+        float:right;
+    }
+    .login-home-button p{
+        border-radius: 3px;
+        font-size:13px;
+        border:1px solid #c9c7c7;
+        font-family:'Roboto','Sans-serif';
+    }
+    .login-home-button a{
+        padding: 5px 15px;
+        color:#333;
+        display: block;
+    }
+    .login-home-button i{
+        padding:3px 4px;
+        background: #912da2;
+        border-radius: 100%;
+        font-size:11px;
+        color:#fff;
+        margin-right:2px;
+    }
+    .buttons{
+        display: none;
+    }
+    .select-box{
+        display: none;
+    }
+    .search-button input{
+        display: none;
+    }
+    .detailed-article{
+        display: none;
+    }.popular-jobs{
+        display: none;
+    }
+    .content{
+        background: rgb(247, 247, 247);
+    }
+    .finder{
+        padding-bottom: 25px;
+    }
+    .finder p{
+        font-size:30px;
+        width: 70%;
+        line-height: 34px;
+        padding:20px 0;
+    }
+    .finder p span{
+        font-weight: bold;
+    }
+    .search{
+        float:left;
+        width:90% !important;
+    }
+    .search-button{
+        width: 5% !important;
+        float:left !important;
+    }
+    .search-button i{
+        line-height: 60px;
+        display: block;
+    }
+    .search-button button{
+        margin:0;
+        padding: 0;
+        border:none;
+        background: none;
+    }    
+    .search-button button{
+        display: block;
+    }
+    .status{
+        display: none;
+    }
+    .mobile-advertisement{
+        width: 100%;
+    }
+    .mobile-advertisement img{
+        width: 100%;
+    }
+    .sign-in-button{
+        padding:5px 15px;
+        background: #840dc3;
+        float: right;
+        border-radius: 5px;
+        margin:3px 5px 3px 0;
+    }
+    .sign-in-button a{
+        text-decoration: none;
+        color:#fff;
+    }
+    .home-sign-in-article{
+        float:left;
+        line-height: 35px;
+        margin:3px 0 3px 10px;
+    }
+    .mobile-home-sign-in{
+        margin-top:15px;
+        background: #fff!important;
+    }
+    .sign-in-button a{
+        color:#fff !important;
+    }
+    
+    .mobile-advertisement{
+        display: block;
+    }
+    .mobile-home-sign-in{
+        display: block;
+    }
+    .small-advertisement{
+        display: none;
+    }
+    .category-advert{
+        display: none;
+    }
+    .featured-job-ann{
+        background: #fff;
+        margin-top:15px;
+        padding-bottom:15px;
+    }
+    .featured-job-ann h3{
+        font-size:15px;
+        padding-top:10px;
+    }
+    .featured-job-m{
+        border:1px solid rgb(223, 221, 221);
+        width: 100%;
+        margin:0 auto;
+    }
+    .featured-job-article{
+        float:left;
+        width: 70%;
+        padding:5px 0 0 15px; 
+    }
+    .featured-job-article h3{
+        font-size:17px;
+        margin-bottom:25px;
+    }
+    .featured-job-brand-logo{
+        float: right;
+        padding:10px 3px;
+        width: 20%;
+        border:1px solid rgb(223, 221, 221);
+        margin:15px 10px 0 0;
+    }
+    .featured-job-brand-logo img{
+        width: 100%;
+    }
+    .career-guide{
+        background: #fff;
+    }
+    .career-guide-img{
+        display: none;
+    }
+    .guide-img-m{
+        width: 100%;
+    }
+    .guide-img-m img{
+        width: 100%;
+    }
+    .guide-article-m{
+        border:1px solid #c9c7c7;
+    }
+    .guide-article-m h2{
+        font-size:19px;
+        padding:10px 30px 5px 20px;
+    }
+    .guide-article-m p{
+        padding:0px 15px 5px 20px;
+        font-size:16px;
+        color:rgb(92, 91, 91);
+    }
+    .guide-article-m a{
+        display: block;
+        padding:3px 0;
+    }
+    .guide-article-m span{
+        display: block;
+        padding-top:15px;
+        font-size:12px;
+    }
+    .right-list-sector {
+        float: left;
+        margin:0 !important;
+    }
+    .footer-navbar li{
+        font-size:12px;
+    }
+    .footer-navbar ul{
+        float:none!important;
+        margin-bottom:25px !important;
+    }
+    .social-media{
+        float: none !important;
+    }
+    .logo-copy{
+        width: 10%;
+        margin-left:0px !important;
+    }
+    .logo-copy img{
+        width:100%;
+    }
+    .footer-article-x{
+        width:88%;
+        padding-left:20px;
+    }
+    .footer{
+        background: #fff;
+    }
+    .guide-m{
+        display: block;
+    }
+    .featured-job-ann{
+        display: block;
+    }
+}
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
